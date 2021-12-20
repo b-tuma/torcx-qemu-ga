@@ -11,7 +11,6 @@ ExecStart=/usr/bin/env ${TORCX_BINDIR}/qemu-ga --statedir /tmp
 ProtectSystem=strict
 ProtectHome=tmpfs
 ProtectHostname=yes
-PrivateNetwork=yes
 PrivateUsers=yes
 PrivateTmp=yes
 Restart=always
